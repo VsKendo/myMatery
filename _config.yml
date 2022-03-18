@@ -4,7 +4,7 @@
 
 # Site
 title: VsKendo's Blog
-subtitle: '拒绝盲目复制黏贴，从我做起——VsKendo'
+subtitle: '前人裁树，后人乘凉'
 description: '前人裁树，后人乘凉'
 keywords:
 author: VsKendo
@@ -105,3 +105,13 @@ deploy:
   type: git
   repository: git@github.com:VsKendo/vskendo.github.io
   branch: master
+
+feed:
+  type: atom
+  path: atom.xml
+  limit: 20
+  hub:
+  content:
+  content_limit: 140
+  content_limit_delim: ' '
+  order_by: -date

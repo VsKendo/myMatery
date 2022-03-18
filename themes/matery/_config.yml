@@ -16,9 +16,9 @@ menu:
   About:
     url: /about
     icon: fas fa-user-circle
-  Contact:
-    url: /contact
-    icon: fas fa-comments
+#  Contact:
+#    url: /contact
+#    icon: fas fa-comments
   Friends:
     url: /friends
     icon: fas fa-address-book
@@ -43,9 +43,9 @@ menu:
 # 站点运行开始时间.
 time:
   enable: false
-  year: 2019 # 年份
-  month: 06 # 月份
-  date: 28 # 日期
+  year: 2020 # 年份
+  month: 07 # 月份
+  date: 06 # 日期
   hour: 00 # 小时
   minute: 00 # 分钟
   second: 00 # 秒
@@ -62,7 +62,7 @@ cover:
   # useConfig 使用方式: 将主题 hexo-theme-matery/source/_data/covers.json 移动到 my-blog/source/_data/下修改配置即可
   video:
     enable: false
-    src: 
+    src:
       - https://txmov2.a.yximgs.com/upic/2021/04/09/22/BMjAyMTA0MDkyMjMwMDhfMTg1ODk2MDg4N180NzUyOTMyMjA4Nl8xXzM=_b_B8e080d7ede19e6674d48a9f12545007b.mp4?pkey=AAVAfNhi5_f-HGkIPXrY5w6nyf4JibwOY-WwdHgSJ2aSoi-2WQLpiYDunLbRZQuESz875eMdsepRlVFtXg9nuQY58uRc-7AsF0kEMNR6QYBj56g9JFFMSGdsoKK2-SV27u8&tag=1-1617978682-xpcwebprofile-0-lcvipceuti-9e40072f87531f1a&clientCacheKey=3xbbtbrfxqpccp4_b.mp4
       - https://txmov2.a.yximgs.com/upic/2021/04/09/21/BMjAyMTA0MDkyMTQyNDRfMTg1ODk2MDg4N180NzUyNjAyMzA0N18xXzM=_b_B83b004b85aba8eca3ded270637616575.mp4
       - https://txmov2.a.yximgs.com/upic/2021/04/09/21/BMjAyMTA0MDkyMTU4MDNfMTg1ODk2MDg4N180NzUyNzE0MzkyNV8xXzM=_b_Bf94cee6bd181efeaca64049bd2e4e276.mp4
@@ -79,7 +79,7 @@ dream:
 # Whether to display the musics.
 # 是否在首页显示音乐.
 music:
-  enable: true
+  enable: false
   title: #非吸底模式有效
     enable: true
     show: 听听音乐
@@ -151,7 +151,7 @@ logo: /medias/logo.png
 # including the display name of the button, the font awesome icon, and the hyperlink to the button.
 # 首页 banner 中的第二个按钮的配置，包括按钮的显示名称、font awesome图标和按钮的超链接.
 indexbtn:
-  enable: true
+  enable: false
   name: Github
   icon: fab fa-github-alt
   url: https://github.com/blinkfox/hexo-theme-matery
@@ -160,11 +160,11 @@ indexbtn:
 # icon/button will not show up if you leave the corresponding socialLink empty
 # 首页 banner 中的第二行个人信息配置，留空即不启用
 socialLink:
-  github:  https://github.com/blinkfox
-  email: 1181062873@qq.com
+  github:  https://github.com/VsKendo
+  email: 28860356@qq.com
   facebook: # https://www.facebook.com/xxx
   twitter: # https://twitter.com/xxx
-  qq: 1181062873
+  qq: 28860356
   weibo: # https://weibo.com/xxx
   zhihu: # https://www.zhihu.com/xxx
   rss: true # true、false
@@ -254,9 +254,9 @@ snowdown:
 # profile in about page, including avatars, career, and personal introductions.
 # 在”关于”页面中配置个人信息，包括头像、职业和个人介绍.
 profile:
-  avatar: /medias/avatar.jpg
+  avatar: /medias/vskendo-pure.png
   career: Software Engineer
-  introduction: If you wish to succeed, you should use persistence as your good friend, experience as your reference, prudence as your brother and hope as your sentry.
+  introduction: 以下"关于我"相关的内容暂未编辑。
 
 # config my projects informations in about page.
 # If you don't want to display this `My Projects` content, you can deactivate or delete this configuration.
@@ -284,7 +284,7 @@ myProjects:
 # If you don't want to display this `My Skills` content, you can deactivate or delete this configuration.
 # 在“关于”页面配置"我的技能"信息，如果你不需要这些信息则可以将其设置为不激活或者将其删除.
 mySkills:
-  enable: true
+  enable: false
   data:
     Java:
       background: 'linear-gradient(to right, #FF0066 0%, #FF00CC 100%)'
@@ -386,7 +386,7 @@ valine:
   pageSize: 10
   placeholder: 'just go go' # Comment Box placeholder
   background: /medias/comment_bg.png
-  coolpushkey: 
+  coolpushkey:
 
 # The configuration of the MiniValine comment module is not activated by default.
 # To use it, activate the configuration item.
@@ -394,7 +394,7 @@ valine:
 # See: https://github.com/MiniValine/MiniValine
 minivaline:
   enable: false
-  # 更多选项 https://minivaline.js.org/docs/cn/#/Options 按照yml格式继续填写即可 （除了 [el] 选项）  
+  # 更多选项 https://minivaline.js.org/docs/cn/#/Options 按照yml格式继续填写即可 （除了 [el] 选项）
   # emoticonUrl 等列表选项 可参考 https://github.com/MiniValine/hexo-next-minivaline
   # 下面是一个例子：
   serverURL: https://minivaline.your-domain.top
@@ -417,7 +417,7 @@ changyan:
 # Whether to display fork me on github icon and link, default true, You can change it to your repo address
 # 配置是否在 header 中显示 fork me on github 的图标，默认为true，你可以修改为你的仓库地址.
 githubLink:
-  enable: true
+  enable: false
   url: https://github.com/blinkfox/hexo-theme-matery
   title: Fork Me
 
@@ -445,9 +445,9 @@ verifyPassword:
 # busuanzi(http://busuanzi.ibruce.info/) website statistics
 # 不蒜子(http://busuanzi.ibruce.info/) 网站统计
 busuanziStatistics:
-  enable: true
-  totalTraffic: true # 总访问量
-  totalNumberOfvisitors: true # 总人次
+  enable: false
+  totalTraffic: false # 总访问量
+  totalNumberOfvisitors: false # 总人次
 
 # Add google analytics configuration
 # 添加 Google Analytics 配置
@@ -630,11 +630,14 @@ subtitle:
   loop: true # 是否循环
   showCursor: true # 是否显示光标
   startDelay: 300 # 开始延迟
-  typeSpeed: 100 # 打字速度
-  backSpeed: 50 # 删除速度
+  typeSpeed: 150 # 打字速度
+  backSpeed: 100 # 删除速度
   sub:
+    - 希望能我们都可以以成为“匠人”为目标，去努力
+    - 不仅要看到伟大的伟大，更要察觉不伟大的伟大
+    - 希望在未来，无论是什么样的事情，我们都不会忘记很重要的东西
     - 从来没有真正的绝境, 只有心灵的迷途
-    - Never really desperate, only the lost of the soul
+    - 世界上只有一种英雄主义——看清生活的真相后，仍热爱生活
 
 # 手机二级菜单.
 navMenu:
@@ -652,11 +655,11 @@ banner:
 
 #ICP备案信息尾部显示
 icp:
-  enable: false
-  url: # 备案链接
-  text: # 备案信息
+  enable: true
+  url: https://beian.miit.gov.cn/ # 备案链接
+  text: 粤ICP备2020112636号 # 备案信息
 
-# CDN访问加速 
+# CDN访问加速
 # 第一次使用本功能，一定要先配置url，再`hexo cl && hexo g && hexo d`部署到GitHub的仓库，注意！必须是GitHub的仓库！
 # 如果必须要使用国内的coding或者gitee，可以采用双部署，同时将网站部署到两个仓库（其中一个必须是GitHub的仓库）
 # URL配置规则（例子如下）： https://cdn.jsdelivr.net/gh/你的GitHub用户名/你的仓库名
@@ -667,7 +670,7 @@ icp:
 # 注：jsdelivr可以自动帮你生成.min版的js和css，所以你在上面设置js及css路径中可以直接写.min.xxx
 jsDelivr:
   url: # https://cdn.jsdelivr.net/gh/skyls03/skyls03.github.io
-  
+
 # 网站背景图
 background:
   enable: false
