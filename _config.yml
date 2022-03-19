@@ -44,12 +44,12 @@ post_asset_folder: false
 relative_link: false
 future: true
 highlight:
-  enable: true
-  line_number: true
-  auto_detect: false
-  tab_replace: ''
-  wrap: true
-  hljs: false
+  enable: false
+#  line_number: true
+#  auto_detect: false
+#  tab_replace: ''
+#  wrap: true
+#  hljs: false
 prismjs:
   enable: false
   preprocess: true
@@ -106,6 +106,8 @@ deploy:
   repository: git@github.com:VsKendo/vskendo.github.io
   branch: master
 
+## 以下配置为后期额外添加的参数，原本的config中使没有的
+# 添加 RSS 订阅支持
 feed:
   type: atom
   path: atom.xml
@@ -115,3 +117,15 @@ feed:
   content_limit: 140
   content_limit_delim: ' '
   order_by: -date
+
+# 中文链接转拼音
+permalink_pinyin:
+  enable: true
+  separator: '-' # default: '-'
+
+# 代码高亮
+prism_plugin:
+  mode: 'preprocess'    # realtime/preprocess
+  theme: 'tomorrow'
+  line_number: true    # default false
+  custom_css:
