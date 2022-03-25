@@ -7,6 +7,7 @@ author: VsKendo
 mathjax: true
 categories: LaTex
 summary: LaTeX是一种基于TeX的文档排版系统，成为现在最流行的科技写作——尤其是数学写作的工具之一.
+description: LaTeX是一种基于TeX的文档排版系统，成为现在最流行的科技写作——尤其是数学写作的工具之一.
 ---
 
 # 简介

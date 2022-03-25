@@ -5,6 +5,7 @@ tags: [VsCode, C/C++, Mac]
 author: VsKendo
 categories: C/C++
 summary: 在Mac上，使用VsCode作为C/C++的IDE，发现还是有不少坑的。
+description: 在Mac上，使用VsCode作为C/C++的IDE，发现还是有不少坑的。
 ---
 
 # 配置说明

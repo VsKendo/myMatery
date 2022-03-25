@@ -26,8 +26,26 @@
 
 （以上修改都基于官方文档）
 
+- 修复了一个bug，该bug导致在文章中，'{' 和 '}' 会被转义的问题（即使在代码块中也会）。修复方法是找到 `.\node_modules\hexo-prism-plugin\src\index.js`，然后增加2行，变为：
+
+  ```javascript
+  const map = {
+    '&#39;': '\'',
+    '&amp;': '&',
+    '&gt;': '>',
+    '&lt;': '<',
+    '&quot;': '"',
+    '&#123;': '{',
+    '&#125;': '}'
+  };
+  ```
+
+  `  '&#123;': '{'`和 `  '&#125;': '}'`是新增的，记得要在上一行加上逗号。
+
 # References
 
 官方文档：https://github.com/blinkfox/hexo-theme-matery/blob/develop/README_CN.md
 
 Hexo 主题 Matery 配置 ：https://www.cnblogs.com/mfrank/p/12830097.html
+
+hexo上传博客代码时花括号被转义了：https://blog.csdn.net/weixin_47617631/article/details/121425697
