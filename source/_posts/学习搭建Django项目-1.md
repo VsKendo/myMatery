@@ -1,5 +1,5 @@
 ---
-title: 学习搭建Django项目 - 1
+title: 从0搭建Django项目 - 1
 date: 2022-03-25 08:01:59
 tags: [python, Django]
 author: VsKendo
@@ -8,7 +8,7 @@ summary: 从0开始学习Django，根据官方文档进行补充，建议和官�
 description: 从0开始学习Django，根据官方文档进行补充，建议和官方文档一起看。
 ---
 
-# 学习搭建Django项目 - 1
+# 从0搭建Django项目 - 1
 
 项目采用python3.9+Django 4.0.3，项目github：https://github.com/VsKendo/django_demo。
 
