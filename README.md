@@ -42,6 +42,16 @@
 
   `  '&#123;': '{'`和 `  '&#125;': '}'`是新增的，记得要在上一行加上逗号。
 
+- 修改了 `bg-cover-content.ejs`，其硬编码了 `https://cdn.jsdelivr.net/npm/typed.js@2.0.11`，但是jsdelivr有可能出问题（如 `指向“https://cdn.jsdelivr.net/npm/typed.js@2.0.11”的 <script> 加载失败。` ），于是将原 script 改为
+
+  ```javascript
+  <script 
+  	src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js">
+  </script>
+  ```
+  
+  
+
 # References
 
 官方文档：https://github.com/blinkfox/hexo-theme-matery/blob/develop/README_CN.md
@@ -49,3 +59,5 @@
 Hexo 主题 Matery 配置 ：https://www.cnblogs.com/mfrank/p/12830097.html
 
 hexo上传博客代码时花括号被转义了：https://blog.csdn.net/weixin_47617631/article/details/121425697
+
+jsdelivr.net挂了，前端如何动态的切换cdn呢？：https://segmentfault.com/q/1010000041149228/a-1020000041150172
