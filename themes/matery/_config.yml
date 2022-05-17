@@ -593,7 +593,7 @@ tuxiaochao:
   productId:
 #背景canvas-nest
 canvas_nest:
-  enable: false
+  enable: true
   color: 0,0,255 # 线条颜色, 默认: '0,0,0' ；三个数字分别为(R,G,B)，注意用,分割
   pointColor: 0,0,255 # 交点颜色, 默认: '0,0,0' ；三个数字分别为(R,G,B)，注意用,分割
   opacity: 0.7 # 线条透明度（0~1）, 默认: 0.5
@@ -633,11 +633,12 @@ subtitle:
   typeSpeed: 150 # 打字速度
   backSpeed: 100 # 删除速度
   sub:
-    - 希望能我们都可以以成为“匠人”为目标，去努力
+    - 希望我们都可以以成为“匠人”为目标，去努力
     - 不仅要看到伟大的伟大，更要察觉不伟大的伟大
     - 希望在未来，无论是什么样的事情，我们都不会忘记很重要的东西
     - 从来没有真正的绝境, 只有心灵的迷途
     - 世界上只有一种英雄主义——看清生活的真相后，仍热爱生活
+    - 路遥知马力不足，日久见人心叵测
 
 # 手机二级菜单.
 navMenu:
@@ -657,7 +658,7 @@ banner:
 icp:
   enable: true
   url: https://beian.miit.gov.cn/ # 备案链接
-  text: 粤ICP备2020112636号 # 备案信息
+  text: 粤ICP备2020112636号-3 # 备案信息
 
 # CDN访问加速
 # 第一次使用本功能，一定要先配置url，再`hexo cl && hexo g && hexo d`部署到GitHub的仓库，注意！必须是GitHub的仓库！
