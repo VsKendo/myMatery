@@ -2,7 +2,7 @@
 title: LaTex从入门到精通
 date: 2022-03-19 17:03:16
 tags: [LaTex, Math]
-top: true
+top: false
 author: VsKendo
 mathjax: true
 categories: 写作

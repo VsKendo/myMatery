@@ -9,7 +9,11 @@
 1. 克隆仓库`git clone`
 2. `npm install`
 3. 进行一些修改
-4. `hexo d`
+   - 比如要新增文章， 使用 `hexo new "文章标题"`，然后在 source/_post中修改文件即可
+
+4. `hexo clean && hexo generate`来根据md生成文章。
+
+5. `hexo d`来部署使得更新生效。
 
 # 修改了什么
 

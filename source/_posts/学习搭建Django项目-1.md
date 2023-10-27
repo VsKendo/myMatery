@@ -1,5 +1,5 @@
 ---
-title: 从0搭建Django项目 - 1
+title: 从0搭建Django项目 - 1. 初始化项目
 date: 2022-03-25 08:01:59
 tags: [python, Django]
 author: VsKendo
@@ -39,10 +39,6 @@ description: 从0开始学习Django，根据官方文档进行补充，建议和
 # 开始
 
 本教程需配合官方文档【中文】：https://docs.djangoproject.com/zh-hans/4.0/intro/tutorial01/ 使用，因为有些官方文档已经说得很详细了，这里不再赘述。
-
-**查看官方文档过程中请配合本教程使用**。
-
-**查看官方文档过程中请配合本教程使用**。
 
 **查看官方文档过程中请配合本教程使用**。
 
